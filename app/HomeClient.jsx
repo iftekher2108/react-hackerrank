@@ -15,9 +15,9 @@ export default function HomeClient() {
             <h2 className="text-xl md:text-2xl font-semibold text-accent mb-2 tracking-wide">Coding Challenge Solutions</h2>
           </div>
           <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-            <span className="font-semibold text-accent">Explore, Learn, and Grow!</span> <br/>
-            This project showcases solutions to various coding challenges from <span className="font-semibold text-accent">HackerRank</span>.<br/>
-            Discover different approaches, master new techniques, and boost your problem-solving skills.<br/>
+            <span className="font-semibold text-accent">Explore, Learn, and Grow!</span> <br />
+            This project showcases solutions to various coding challenges from <span className="font-semibold text-accent">HackerRank</span>.<br />
+            Discover different approaches, master new techniques, and boost your problem-solving skills.<br />
             Whether you're preparing for interviews or sharpening your coding abilities, you'll find helpful resources and inspiration here.
           </p>
           <div className="flex flex-wrap gap-4 mt-4 justify-center">
@@ -28,6 +28,12 @@ export default function HomeClient() {
             <Link href="/word-omitter" className="btn btn-secondary btn-lg shadow-md hover:scale-105 transition-transform duration-200">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m-6-8h6" /></svg>
               Word Omitter
+            </Link>
+            <Link href="/feedback-system" className="btn btn-accent btn-lg shadow-md hover:scale-105 transition-transform duration-200">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8a2 2 0 012-2h2m10 0V6a4 4 0 00-8 0v2m8 0H7" />
+              </svg>
+              Feedback System
             </Link>
           </div>
         </div>

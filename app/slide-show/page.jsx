@@ -1,4 +1,4 @@
-import SlideShow from "@/component/SlideShow";
+import SlideShow from "./SlideShow";
 import Image from "next/image";
 
 export const metadata = {
@@ -31,7 +31,7 @@ export default function slideShowPage() {
 
   return (
     <>
-      <div className="p-10 border border-primary m-3 card mb-6">
+      <div className="p-10 border border-primary m-3 mb-6">
         <h3 className="text-3xl text-primary font-bold mb-3">Output Results: </h3>
         <SlideShow slides={Slides} />
       </div>

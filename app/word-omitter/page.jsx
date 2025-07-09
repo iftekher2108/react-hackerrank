@@ -1,4 +1,4 @@
-import { WordOmitter } from "@/component/WordOmiter";
+import { WordOmitter } from "./WordOmiter";
 import Image from "next/image";
 
 
@@ -10,7 +10,7 @@ export default function WordOmiterPage() {
     const OMITTED_WORDS = ["a", "the", "and", "or", "but"];
     return(
         <>
-        <div className="p-10 border border-primary m-3 card mb-6">
+        <div className="p-10 border border-primary m-3 mb-6">
         <h3 className="text-3xl text-primary font-bold mb-3">Output Results: </h3>
                <WordOmitter wordOmit={OMITTED_WORDS}  /> 
         </div>
